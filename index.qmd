@@ -1,11 +1,5 @@
 ---
-title: "Hunter-Ross-3.github.io"
+title: "Hunter Ross"
 ---
 
-This is a Quarto website! I love the beach in the summertime!
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hi my name is Hunter and I am an undergrad at UCSB getting my degree in Environmental Science. Outside of school I love to hike,identify plants, bake, and read. 
