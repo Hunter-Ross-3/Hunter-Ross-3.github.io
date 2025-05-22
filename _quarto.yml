@@ -9,9 +9,9 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      -Project.qmd
-      -GIS work or Plant Identification.qmd
-      -resume.qmd
+      - Project.qmd
+      - GIS work or Plant Identification.qmd
+      - resume.qmd
 
 format:
   html:
