@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Hunter-Ross-3.github.io"
+  title: "Hunter Ross"
   navbar:
     left:
       - href: index.qmd

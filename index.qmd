@@ -1,6 +1,6 @@
 ---
 title: "Hunter Ross"
-image: Hunter_website_photo.jpeg
+image: Hunter_website_photo.jpg
 toc: false
 about: 
   template: jolla
@@ -8,9 +8,9 @@ about:
   image-width: 17em
   links: 
     - text: Email
-    href: hunter3veronica@gmail.com
+      href: hunter3veronica@gmail.com
     - text: LinkedIn
-    href: www.linkedin.com/in/hunter-ross-99186629a
+      href: www.linkedin.com/in/hunter-ross-99186629a
     
 
 
