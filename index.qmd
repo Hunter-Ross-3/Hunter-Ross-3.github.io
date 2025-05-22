@@ -1,5 +1,19 @@
 ---
 title: "Hunter Ross"
+image: Hunter_website_photo.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links: 
+    - text: Email
+    href: hunter3veronica@gmail.com
+    - text: LinkedIn
+    href: www.linkedin.com/in/hunter-ross-99186629a
+    
+
+
 ---
 
 Hi my name is Hunter and I am an undergrad at UCSB getting my degree in Environmental Science. Outside of school I love to hike,identify plants, bake, and read. 
