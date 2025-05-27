@@ -1,3 +1,9 @@
 ---
 title: "About Me"
 ---
+
+![One thing that really describes me as a person is my love for hiking and being outdoors.](hiking.JPG)
+
+![This is a photo of two of my sourdough loaves. One is plain and the other is pesto.](bread.jpg)
+
+![Here are my two dogs, Logan on the left and Shayna on the right. ](dogs.jpg){width="415"}

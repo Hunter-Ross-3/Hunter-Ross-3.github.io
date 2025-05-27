@@ -7,10 +7,9 @@ about:
   image-shape: round
   image-width: 17em
   links: 
-    - text: Email
-      href: hunter3veronica@gmail.com
+  
     - text: LinkedIn
-      href: www.linkedin.com/in/hunter-ross-99186629a
+      href: https://www.linkedin.com/in/hunter-ross-99186629a
     - text: GitHub
       href: https://github.com/Hunter-Ross-3
        
