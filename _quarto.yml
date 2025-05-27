@@ -10,12 +10,12 @@ website:
         text: Home
       - about.qmd
       - Project.qmd
-      - GIS work or Plant Identification.qmd
+      - Plant Identification.qmd
       - resume.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: Yeti
     css: styles.css
     toc: true
 
