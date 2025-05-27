@@ -11,6 +11,10 @@ about:
       href: hunter3veronica@gmail.com
     - text: LinkedIn
       href: www.linkedin.com/in/hunter-ross-99186629a
+    - text: GitHub
+      href: https://github.com/Hunter-Ross-3
+       
+
     
 
 
