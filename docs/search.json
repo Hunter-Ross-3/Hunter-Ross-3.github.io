@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hunter Ross",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "Hi my name is Hunter and I am an undergrad at UCSB getting my degree in Environmental Science. Outside of school I love to hike, identify plants, bake, and read!"
+    "text": "Here is where i will have my resume (i’m not sure if it’s supposed to be a pdf or a link or what)"
   },
   {
     "objectID": "Plant Identification.html",
     "href": "Plant Identification.html",
     "title": "Plant Identification",
     "section": "",
-    "text": "Here is where i will have an interactive map of the locatins of my inat and seek observations where you can zoom in on all of the points"
+    "text": "Here is where I will have an interactive map of the locations of my iNaturalist and seek observations where you can zoom in on all of the points."
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,19 @@
     "title": "About Me",
     "section": "",
     "text": "One thing that really describes me as a person is my love for hiking and being outdoors.\n\n\n\n\n\nThis is a photo of two of my sourdough loaves. One is plain and the other is pesto.\n\n\n\n\n\nHere are my two dogs, Logan on the left and Shayna on the right."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hunter Ross",
+    "section": "",
+    "text": "Hi my name is Hunter and I am an undergrad at UCSB getting my degree in Environmental Science. Outside of school I love to hike, identify plants, bake, and read!"
+  },
+  {
+    "objectID": "Project.html",
+    "href": "Project.html",
+    "title": "Project",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggplot2)\nlibrary(janitor)\n\n\nAttaching package: 'janitor'\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\nlibrary(MuMIn)\n\n\nmy_data &lt;- read.csv(\"my_data.csv\")"
   }
 ]
