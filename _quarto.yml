@@ -10,7 +10,7 @@ website:
         text: Home
       - about.qmd
       - Project.qmd
-      - Plant Identification.qmd
+      - Plant_Identification.qmd
       - resume.qmd
 
 format:
