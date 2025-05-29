@@ -1,19 +1,18 @@
-﻿ Money spent on campus,,,,,,,,,
-Date,Day,Time,Hours,Spent ($),Meals,Snacks,miscelanious ,Brought Food,Mood (1-5)
+﻿date,day,time,hours,spent,meals,smacks,miscelanious ,brought food,mood (1-5)
 21-Apr,Monday,0,6.25,0,0,0,,yes,3
 22-Apr,Tuesday,0,2.5,0,0,0,,yes,5
 23-Apr,Wednesday,12:09,4.25,5.66,1,0,,yes,4
 24-Apr,Thursday,9:33; 11:26,3,30.94,0,1,1(bike tire),no,3
 25-Apr,Friday,10:56,2,6,0,1,0,yes,4
-29-Apr,tuesday,12:00,4,5.75,1,0,0,no,3
+29-Apr,Tuesday,12:00,4,5.75,1,0,0,no,3
 30-Apr,Wednesday,15:00,6,11.17,0,3,0,no,2
-1-May,Thursday,,,,,,,,
+1-May,Thursday,9:20,2,7,0,1,0,no,3
 4-May,Tuesday,9:10,2,6.98,0,1,0,no,3
 8-May,Thursday,9:20,2,0,0,1,0,no,4
 13-May,Tuesday,9:15,2,7.25,0,1,0,no,5
-14-May,Wednesday,9:19,,6,0,1,0,no,4
+14-May,Wednesday,9:19,2,6,0,1,0,no,4
 15-May,Thursday,9:15,2,6,0,1,0,no,3
 20-May,Monday,9:22,2,5.75,0,1,0,no,4
-21-May,Wednesday,9:15; 11:50; 2:17:7.25,12,3.50; 7; 7.68,1,2,3(pens and eraser),no,4
+21-May,Wednesday,9:15; 11:50; 2:17:7.25,12,18.15,1,2,3(pens and eraser),no,4
 23-May,Friday,11:50,2,5.75,1,0,0,no,5
-27-Feb,Tuesday,9:19,,7,0,1,0,no,4
+27-Feb,Tuesday,9:19,13,7,0,1,0,no,4
