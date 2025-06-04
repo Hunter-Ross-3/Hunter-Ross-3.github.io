@@ -3,3 +3,47 @@ title: "Plant Identification"
 ---
 
 Here is where I will have an interactive map of the locations of my iNaturalist and seek observations where you can zoom in on all of the points.
+
+
+```{r}
+#load in packages
+library(tidyverse)
+library(leaflet)
+library(leaflet.extras)
+
+#read in data
+obs <- read.csv("iNat_observations/observations.csv")
+```
+
+
+```{r}
+#some cleaning 
+#first get just location by selecting just he long and lat
+location <- obs |> 
+  select(longitude, latitude, place_guess) |> 
+  distinct()
+
+#just the taxa name
+taxon <- obs |> 
+  select(iconic_taxon_name)
+
+#just the species name
+species <- obs |> 
+  select(scientific_name)
+
+```
+
+
+
+```{r}
+#create a map
+```
+
+
+
+
+
+
+
+
+
