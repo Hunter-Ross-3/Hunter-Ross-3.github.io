@@ -3,15 +3,34 @@ title: "Project"
 ---
 
 ```{r -read in packages}
-
+#| message: false
+#loading packages
 library(tidyverse)
-library(ggplot2)
 library(janitor)
-library(MuMIn)
-#i will probably need more packages as i work 
+library(here)
+library(flextable)
+library(readxl)
+library(png) 
+library(grid) 
+#loading data
+my_data <- read.csv(here("my_data.csv"))
 ```
 
-```{r -read in data}
-
-my_data <- read.csv("my_data.csv")
+```{r}
+# creating cicle graph
+ggplot(my_data, aes(x = day, y = spent, fill = day)) + #using my original data not summary data
+  geom_bar(stat = "identity", position = 
+             "dodge", show.legend = TRUE) +
+  #creating a base bar graph
+  coord_polar() + #changing the bar graph to circle 
+  theme_void() + #theme
+  scale_fill_viridis_d() +
+  labs(title = "Spending Spiral: Money Spent by Day") +
+  
+  # title 
+  theme(title = element_text(size =14))# changing the size of title
 ```
+
+
+
+![This project poster was from conservation planning class where we....](ES 137.S2024.AlaskanGiantKelpForests.png)

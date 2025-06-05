@@ -1,11 +1,13 @@
 ---
-title: "Plant Identification"
+title: "Flora and Fauna Observations"
 ---
-
-Here is where I will have an interactive map of the locations of my iNaturalist and seek observations where you can zoom in on all of the points.
 
 
 ```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
 #load in packages
 library(tidyverse)
 library(leaflet)
@@ -17,22 +19,31 @@ obs <- read.csv("iNat_observations/observations.csv")
 
 
 ```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
 #some cleaning 
 #first get just location by selecting just he long and lat
 location <- obs |> 
   select(longitude, latitude, scientific_name) 
+
 
 ```
 
 
 
 ```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
 #create a map
 Observation_map <-  leaflet() |> 
   #add google map
   addTiles(urlTemplate = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G", attribution = 'Google') |> 
   addTiles() |> 
-  addCircleMarkers(data= location, label= "species_name") |> 
+  addCircleMarkers(data= location, label = location$scientific_name) |> 
 
   #add mini map
   addMiniMap(toggleDisplay = TRUE, minimized = TRUE) |> 
