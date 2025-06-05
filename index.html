@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Plant Identification – Hunter Ross</title>
+<title>Hunter Ross</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -67,7 +33,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -100,38 +65,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-
-<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-
-<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
-
-<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-
-<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
-
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-
-<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-
-<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
-
-<link href="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.css" rel="stylesheet">
-
-<script src="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.js"></script>
-
-<script src="site_libs/leaflet-minimap-3.3.1/Minimap-binding.js"></script>
-
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -149,7 +88,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -161,7 +100,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Plant_Identification.html" aria-current="page"> 
+    <a class="nav-link" href="./Plant_Identification.html"> 
 <span class="menu-text">Plant Identification</span></a>
   </li>  
   <li class="nav-item">
@@ -179,89 +118,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-jolla">
+  <img src="Hunter_website_photo.jpg" class="about-image
+  round " style="height: 17em; width: 17em;">
+ <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Plant Identification</h1>
+<h1 class="title">Hunter Ross</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
+</header><main class="content" id="quarto-document-content">
+<p>Hi, I’m Hunter! I’m currently an undergraduate student at UCSB pursuing a degree in Environmental Science, which I’m excited to be earning on June 2025. When I’m not diving into my studies, you’ll often find me exploring nature on hikes, identifying different plants, experimenting in the kitchen with baking, or getting lost in a good book. Welcome!</p>
 
 
-</header>
-
-
-<p>Here is where I will have an interactive map of the locations of my iNaturalist and seek observations where you can zoom in on all of the points.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#load in packages</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-✔ purrr     1.0.4     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet.extras)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#read in data</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>obs <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"iNat_observations/observations.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#some cleaning </span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#first get just location by selecting just he long and lat</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>location <span class="ot">&lt;-</span> obs <span class="sc">|&gt;</span> </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(longitude, latitude, scientific_name) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#create a map</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>Observation_map <span class="ot">&lt;-</span>  <span class="fu">leaflet</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="co">#add google map</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addTiles</span>(<span class="at">urlTemplate =</span> <span class="st">"https://mts1.google.com/vt/lyrs=s&amp;hl=en&amp;src=app&amp;x={x}&amp;y={y}&amp;z={z}&amp;s=G"</span>, <span class="at">attribution =</span> <span class="st">'Google'</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addTiles</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addCircleMarkers</span>(<span class="at">data=</span> location, <span class="at">label=</span> <span class="st">"species_name"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">#add mini map</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addMiniMap</span>(<span class="at">toggleDisplay =</span> <span class="cn">TRUE</span>, <span class="at">minimized =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="co">#set vew to open over Santa barbara</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">setView</span>(<span class="at">lng =</span> <span class="sc">-</span><span class="fl">119.83</span>, <span class="at">lat =</span> <span class="fl">34.44</span>, <span class="at">zoom =</span> <span class="dv">9</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Assuming "longitude" and "latitude" are longitude and latitude, respectively</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning in validateCoords(lng, lat, funcName): Data contains 3 rows with either
-missing or invalid lat/lon values and will be ignored</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>Observation_map</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-ff0082f23d226b59cb89" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-ff0082f23d226b59cb89">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"Google"}]},{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[34.1362655,35.5637133333,21.2785666667,21.32551245,34.1843833333,34.1923633333,35.19960895,35.2749250025,35.6268783333,34.187749,34.4314716667,34.4087366667,33.6416583333,34.1293195,34.1292805,34.174305,34.187749,34.1842216667,33.616525,33.619445,33.6194883333,33.61652,null,null,34.1297305,34.20988,34.2098166667,34.1583528333,35.3696283333,34.18433,34.30143,34.218987,34.1605611667,34.40893,34.1490833333,34.1844333333,35.272157,33.641425,34.1825416667,35.45802,34.2005166667,34.299375,37.9213966667,37.9189533333,36.9960216667,34.19133,34.2996166667,41.8733,43.77013,41.8733633333,40.952745,34.426045,34.1487666667,34.42218,34.424145,34.443225,34.1293445,35.6975966667,34.1293361667,34.2078883333,34.123725,34.1236333333,34.1842633333,34.1848208263,34.1844166667,34.191395,34.1841166667,34.1844666667,34.1852083333,34.1236445,39.7520666667,39.7723466667,34.4102966667,34.4102533333,34.40943,34.410325,34.3961216667,34.44322,34.4066466667,34.406175,34.4074383333,34.43655,34.4207033333,34.7199166667,34.2855333333,34.28532,34.2858083333,34.2854833333,34.2852466667,34.283855,34.285525,null,34.455995,37.6399,37.7610083333,37.770425,37.8403158544,37.766175,37.7662716667,37.812745,37.7393,37.7631,37.76107,37.7582883333,37.7388383333,37.7391166667,37.7388916667,37.7388083333,37.7392716667,37.739375,37.721325,34.1293945313,34.1293945313,34.1293984846,34.1293445,34.129325,34.044921875,34.0449829102,34.4098625183,34.407105,34.4109033333,34.5066533333,34.5055116667,34.5065383333,34.5095133333,34.5023841858,34.42337,34.412405,34.4094883333,34.4284629822,34.4284896851,34.4322866667,34.4272766113,34.4246139526,34.4502410889,34.4078716667,34.40918,34.5019607544,34.5019035339,34.5016136169,34.421169281,34.4088708447,34.461566925,34.4631233215,34.463432312,34.40932,34.4139137659,34.4147224426,34.4714698792,34.46023,34.8088912964,34.8086929321,34.5388031006,34.5143356323,34.5189666748,34.5175552368,34.5393216667,34.518455,34.5138666667,34.5142216667,34.51438,35.155],[-118.663006,-121.1066278333,-157.8287366667,-157.856486,-118.864975,-118.8821333333,-120.719946,-120.888595,-121.1593333333,-118.889065,-119.9173366667,-119.8543783333,-117.863075,-118.6632783333,-118.6631783333,-118.4464866667,-118.889065,-118.8649,-117.9296283333,-117.9284283333,-117.9284216667,-117.9295966667,null,null,-118.877555,-118.8375633333,-118.8376216667,-118.8347633333,-120.8644166667,-118.86487,-118.8357916667,-118.8691706,-118.8241366667,-119.8543783333,-118.8386783333,-118.86493,-120.6705875,-117.8634416667,-118.8768383333,-120.9661866667,-118.8670366667,-118.8350216667,-122.3004533333,-122.301095,-122.058075,-118.8683083333,-118.835105,12.5014333333,11.24837,12.501355,17.3044616667,-119.7902916667,-118.8185716667,-119.787995,-119.787995,-119.81938,-118.6632916667,-120.950225,-118.6633,-118.83773,-118.6616883333,-118.661745,-118.8648833333,-118.8717476309,-118.8649,-118.8683866667,-118.8892133333,-118.864945,-118.8740383333,-118.6616133333,-121.8444883333,-121.90767,-119.864045,-119.864075,-119.8702466667,-119.8640533333,-119.7067033333,-119.8195033333,-119.8476333333,-119.8466416667,-119.8485866667,-119.8734366667,-119.873695,-120.4730383333,-117.353705,-117.353745,-117.35102,-117.3535783333,-117.3538616667,-117.3343416667,-117.3536616667,null,-119.7093666667,-120.1521695,-119.8054883333,-119.8062833333,-119.559080677,-119.8038416667,-119.8038416667,-119.4830083333,-119.5946416667,-119.8057166667,-119.8051533333,-119.804475,-119.5662383333,-119.5949783333,-119.5954133333,-119.5953533333,-119.594475,-119.595275,-119.6538083333,-118.6632156372,-118.6632156372,-118.6632160557,-118.6632383333,-118.66327,-118.565284729,-118.5655059814,-119.8692779541,-119.8782883333,-119.8773583333,-120.4142216667,-120.413125,-120.4143833333,-120.435005,-119.8652648926,-119.6317583333,-119.734025,-119.865945,-119.6353683472,-119.6353988647,-119.6216716667,-119.8969497681,-119.8993453979,-119.8456344604,-119.8766116667,-119.867225,-119.8645706177,-119.8647003174,-119.8640975952,-119.8726654053,-119.868723055,-120.0290222168,-120.0341796875,-120.0357055664,-119.8715883333,-119.8613325355,-119.8432540894,-119.6890411377,-119.6881116667,-115.6258010864,-115.6269378662,-119.6999588013,-119.7983169556,-119.7910308838,-119.7942123413,-119.706375,-119.782945,-119.8022083333,-119.80327,-119.7984866667,-115.3347783333],10,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2},null,null,null,null,"species_name",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMiniMap","args":[null,null,"bottomright",150,150,19,19,-5,false,false,false,true,false,true,{"color":"#ff7800","weight":1,"clickable":false},{"color":"#000000","weight":1,"clickable":false,"opacity":0,"fillOpacity":0},{"hideText":"Hide MiniMap","showText":"Show MiniMap"},[]]}],"limits":{"lat":[21.2785666667,43.77013],"lng":[-157.856486,17.3044616667]},"setView":[[34.44,-119.83],9,[]]},"evals":[],"jsHooks":[]}</script>
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://www.linkedin.com/in/hunter-ross-99186629a" class="about-link" rel="" target="">
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/Hunter-Ross-3" class="about-link" rel="" target="">
+     <span class="about-link-text">GitHub</span>
+  </a>
 </div>
 </div>
-
-
-
-</main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -282,13 +165,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
