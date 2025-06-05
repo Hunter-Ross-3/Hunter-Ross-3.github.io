@@ -179,19 +179,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap:The circular bar graph titled "Spending Spiral: Money Spent on Campus by Day" visualizes the amount of money spent on campus, broken down by each day of the week. Utilizing a polar coordinate transformation of a standard bar chart, the graph presents daily spending amounts as radial segments, giving the impression of a pie or spiral chart. Each day's spending is represented with a distinct color gradient from the Viridis palette, providing clear visual separation and accessibility-friendly contrast. Notably, Thursday stands out with a dramatically larger segment than the others, clearly indicating an unusually high expenditure on that day. This spike is the result of an outlier incident when the user's tire popped, requiring an unplanned repair that cost over $30. In contrast, the segments for the other days are relatively uniform and small, reflecting more typical, lower daily spending. The use of a void theme keeps the visual clean and focused solely on the data, and the circular format adds an engaging and unconventional aesthetic while still conveying the proportional nature of the spending data.</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># creating circle graph</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(my_data, <span class="fu">aes</span>(<span class="at">x =</span> day, <span class="at">y =</span> spent, <span class="at">fill =</span> day)) <span class="sc">+</span> <span class="co">#using my original data not summary data</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>             <span class="st">"dodge"</span>, <span class="at">show.legend =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="co">#creating a base bar graph</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_polar</span>() <span class="sc">+</span> <span class="co">#changing the bar graph to circle </span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>() <span class="sc">+</span> <span class="co">#theme</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis_d</span>() <span class="sc">+</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Spending Spiral: Money Spent on campus by Day"</span>) <span class="sc">+</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># title </span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">title =</span> <span class="fu">element_text</span>(<span class="at">size =</span><span class="dv">14</span>))<span class="co"># changing the size of title</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># creating circle graph</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(my_data, <span class="fu">aes</span>(<span class="at">x =</span> day, <span class="at">y =</span> spent, <span class="at">fill =</span> day)) <span class="sc">+</span> <span class="co">#using my original data not summary data</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>             <span class="st">"dodge"</span>, <span class="at">show.legend =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="co">#creating a base bar graph</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_polar</span>() <span class="sc">+</span> <span class="co">#changing the bar graph to circle </span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>() <span class="sc">+</span> <span class="co">#theme</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis_d</span>() <span class="sc">+</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Spending Spiral: Money Spent on campus by Day"</span>) <span class="sc">+</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># title </span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">title =</span> <span class="fu">element_text</span>(<span class="at">size =</span><span class="dv">14</span>))<span class="co"># changing the size of title</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -200,6 +198,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>In my circular bar graph titled “Spending Spiral: Money Spent on Campus by Day,” I visualized how much money I spent on campus across different days of the week. I used a polar coordinate transformation on a regular bar chart to create a spiral-like display, where each day is represented as a distinct radial segment. I applied a Viridis color scale to make each day easy to distinguish, and I kept the overall design clean with a minimal theme so the focus stays on the data. One segment, Thursday, is noticeably larger than the others, and that’s because of an outlier: my tire popped that day, and I ended up spending over $30 to get it fixed. That unexpected cost makes Thursday look dramatically higher than the rest. Most of the other days show much smaller and more consistent spending, giving a clearer picture of my usual on-campus expenses.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="ES 137.S2024.AlaskanGiantKelpForests.png" class="img-fluid figure-img"></p>

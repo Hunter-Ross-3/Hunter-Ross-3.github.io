@@ -23,8 +23,6 @@ my_data <- read.csv(here("my_data.csv"))
 #| warning: false
 #| message: false
 
-#| fig-cap:The circular bar graph titled "Spending Spiral: Money Spent on Campus by Day" visualizes the amount of money spent on campus, broken down by each day of the week. Utilizing a polar coordinate transformation of a standard bar chart, the graph presents daily spending amounts as radial segments, giving the impression of a pie or spiral chart. Each day's spending is represented with a distinct color gradient from the Viridis palette, providing clear visual separation and accessibility-friendly contrast. Notably, Thursday stands out with a dramatically larger segment than the others, clearly indicating an unusually high expenditure on that day. This spike is the result of an outlier incident when the user's tire popped, requiring an unplanned repair that cost over $30. In contrast, the segments for the other days are relatively uniform and small, reflecting more typical, lower daily spending. The use of a void theme keeps the visual clean and focused solely on the data, and the circular format adds an engaging and unconventional aesthetic while still conveying the proportional nature of the spending data.
-
 # creating circle graph
 ggplot(my_data, aes(x = day, y = spent, fill = day)) + #using my original data not summary data
   geom_bar(stat = "identity", position = 
@@ -37,6 +35,9 @@ ggplot(my_data, aes(x = day, y = spent, fill = day)) + #using my original data n
   # title 
   theme(title = element_text(size =14))# changing the size of title
 ```
+
+In my circular bar graph titled "Spending Spiral: Money Spent on Campus by Day," I visualized how much money I spent on campus across different days of the week. I used a polar coordinate transformation on a regular bar chart to create a spiral-like display, where each day is represented as a distinct radial segment. I applied a Viridis color scale to make each day easy to distinguish, and I kept the overall design clean with a minimal theme so the focus stays on the data. One segment, Thursday, is noticeably larger than the others, and that’s because of an outlier: my tire popped that day, and I ended up spending over $30 to get it fixed. That unexpected cost makes Thursday look dramatically higher than the rest. Most of the other days show much smaller and more consistent spending, giving a clearer picture of my usual on-campus expenses.
+
 
 
 
